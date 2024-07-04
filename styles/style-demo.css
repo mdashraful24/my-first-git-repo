@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url(https://media.licdn.com/dms/image/D5612AQFRzu-x4XRHew/article-cover_image-shrink_720_1280/0/1661795917789?e=1725494400&v=beta&t=biD9CV7VuVLHn-gKOQ5Y-5uyWKzuKEfKE-_znXxlflY);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: #ffffffce;
+    text-align: center;
+    width: 70%;
+}
+.content h2{
+    font-size: 54px;
+    color: #db714e;
+    text-transform: uppercase;
+}
+.content p {
+    font-size: 23px;
+    margin: 15px 0;
+}
+.content button{
+    /* background-color: #04aa6d; */
+    /* background-color: floralwhite; */
+    background-color: #ffffffce;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content button:hover{
+    /* background-color: #068858; */
+    background-color: ghostwhite;
+    transition: 0.5s ease-in;
+}
