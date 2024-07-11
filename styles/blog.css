@@ -1,5 +1,69 @@
-div{
-    background-color: tomato;
+*{
+    text-align: justify;
+}
+.display{
+    /* background-color: tomato; */
     padding: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.country{
+    border: 5px solid rgb(30, 17, 209);
+    border-radius: 30px;
+    margin: 15px;
+    box-shadow: 5px 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 15px;
+}
+.text{
+    color: rgba(255, 255, 255, 0.897);
+}
+.ba{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(39, 38, 38, 0.812), rgba(46, 42, 42, 0.669)), url(https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcStnsrr8lphLRQAv1D-iOwJCfaqdS0TU92FN91QiE5OXMS2YrSgQTlL2HL9CWMY8ZCMRHp8N1I6cx78TxKhF4fzD5uWy65RBuvXtRyrPQ);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(39, 38, 38, 0.812), rgba(46, 42, 42, 0.669)), url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcScajM_Ou1wot4vRTTaWB-5n2Bf-RlOoNcYG2x7fOmD9JVhyL0xZiHHOTbpEYR7iGqQmQ-8l42czxNNzf6ypE5Nm2iAyqzkd4cYC6hu3wU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pa{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(39, 38, 38, 0.812), rgba(46, 42, 42, 0.669)), url(https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRUA7jLIncBT68pGM-Nn4-9Z4MDYYncFZppwLR-Tkcq6_Qig5ZjxLAmFbzL0iTSHEq5r7tPlIQFmwGSQDWI8TaQSaVXXfXj-69GR6PASA);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sr{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(39, 38, 38, 0.812), rgba(46, 42, 42, 0.669)), url(https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSElhyzUE_UoBx98GBRPkAuZgbBvUBB6z0bRXV19Rh_poPQpsKw31u1nEnV51dY42mw3bfRtq2toqyqd1uWUhSVgolxVtK69yya2B_6gg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
